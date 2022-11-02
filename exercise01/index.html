@@ -12,11 +12,14 @@
    
   <header> <h1> Password Validator </h1> </header>
   Please enter a password that is at least 8 characters long: 
-  <p><input type ="password" id="pass1">Password</p>
+  <!--creates password fields for the user to type into -->
+  <p><input type ="password" id="pass1">Password</p> 
   <p><input type ="password" id="pass2">Re-Enter Password</p>
+  <!--creates the validate button that will test the passwords-->
   <div id="validate" > 
   <button id="val" onclick="validateFunc()">Validate</button>
   </div>
+  <!--the following are error/valid messages to show the user the status of the passwords-->
   <div id="noMatch" style="display: none"> 
   <p>The passwords you have typed do not match. Try again! </p>
   </div>
