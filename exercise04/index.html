@@ -11,7 +11,8 @@
   <div class="center">
   <h1>CSS Maniputlation! </h1>
   </div>
-  <p>Birds are chirping, leaves are falling, and the air is crisper with the beginning of autumn.<br>
+  <div id="text"> 
+  <p id="txt">Birds are chirping, leaves are falling, and the air is crisper with the beginning of autumn.<br>
     There is something about late September and early October that fills me with so much hope.<br>
     I just love the crisp weather, the changing colors, and the anticipation of the holidays.<br>
     I love the crisp, cold mornings when you have to put on a sweater or jacket and the softness <br>of the sun when it wakes me up.
@@ -19,31 +20,32 @@
     I love the mild temperature and the wonderful cool days.<br>
     I love the bright colors of fall.<br>
     I love the smells of pumpkin and apple pies baking.</p>
-  <script src="script.js"></script>  
+ </div>
+
  
 <div id="changes">
-<form onsubmit="update()">
+    <h4>Enter numbers 0-255 to change the background color of the text, border color, and border width. 
+        <br> Press Change to update the text with your values. 
+    </h4>
     <h3>Border: </h3>
     <label for="borderRed">Red (0-255):</label>
-    <input id="borderRed"> <br>
+    <input type="text" id="borderRed"> <br>
     <label for="borderGreen">Green (0-255):</label>
-    <input id="borderGreen"> <br>
+    <input type="text" id="borderGreen"> <br>
     <label for="borderBlue">Blue (0-255):</label>
-    <input id="borderBlue"> <br>
+    <input type="text" id="borderBlue"> <br>
     <label for="borderWidth">Width (0-255):</label>
-    <input id="borderWidth"> <br>
+    <input type="text" id="borderWidth"> <br>
    <h3>Background: </h3>
     <label for="groundRed">Red(0-255):</label>
-    <input id="groundRed"> <br>
+    <input type="text" id="groundRed"> <br>
     <label for="groundGreen">Green(0-255):</label>
-    <input id="groundGreen"> <br>
+    <input type="text" id="groundGreen"> <br>
     <label for="groundBlue">Blue(0-255):</label>
-    <input id="groundBlue"> <br>
-    <input type ="submit" value="change">
-</form>
-
-
-</div>
+    <input type="text" id="groundBlue"> <br>
+ </div>
+    <button onclick="update()">Change</button>
+    <script src="script.js"></script>  
 </body>
 
 </html>
