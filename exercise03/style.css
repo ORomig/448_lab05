@@ -13,11 +13,23 @@ html, body {
 .right{
     text-align: right;
 }
+.noDisplay{
+    display: none;
+}
+span:hover+img{
+    display: block;
+}
+.centerColor{
+    color:rgb(220, 97, 146); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 table{
-    border: solid;
-    border-width: 5px;
-    border-color: rgb(200,200,240);
     border-collapse: collapse;
+    margin-left: 50px;
+    margin-right: 50px; 
 }
 td, tr, th{
     border: solid;
@@ -25,10 +37,22 @@ td, tr, th{
     border-color: rgb(200,200,240);
     padding: 20px;
 }
+td{
+    color: rgb(237, 130, 172); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    background-color: aliceblue; 
+}
+th{
+    font-size: larger;
+    background-color: aliceblue;
+    color: rgb(220, 97, 146);
+}
 h1{
     font-family: 'Papyrus';
     color: rgb(232, 231, 183);
     background-color: rgb(220, 97, 146);
+    height: 75px;
 }
 img{
     width: 300px;
@@ -41,4 +65,11 @@ img{
 }
 .row{
     display: flex;
+}
+.rows{
+    grid-column: auto;
+}
+.source{
+    font-size: 15px;
+    color: rgb(134, 202, 134);
 }
