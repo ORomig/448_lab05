@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    background-color: rgb(244, 210, 235);
   }
 .center{
   display: flex;
@@ -46,11 +47,11 @@ td{
     color: rgb(237, 130, 172); 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
-    background-color: aliceblue; 
+    background-color: rgb(241, 231, 242); 
 }
 th{
     font-size: larger;
-    background-color: aliceblue;
+    background-color:  rgb(241, 231, 242); 
     color: rgb(220, 97, 146);
 }
 h1{
