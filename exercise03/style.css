@@ -26,6 +26,11 @@ span:hover+img{
     justify-content: center;
     align-items: center;
 }
+a{
+    color:rgb(251, 37, 148);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
 table{
     border-collapse: collapse;
     margin-left: 50px;
@@ -72,4 +77,36 @@ img{
 .source{
     font-size: 15px;
     color: rgb(134, 202, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pink{
+    color: rgb(237, 130, 172); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+}
+.pinkPic{
+    color: rgb(253, 69, 143); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-size: 20px;
+    background-image: url("pic15.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.pic2{
+    color: rgb(253, 69, 143); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-size: 20px;
+    background-image: url("pic15.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.col2{
+    flex: 50%;
+}
+.row2{
+    display: flex;
 }
