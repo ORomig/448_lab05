@@ -11,9 +11,11 @@ a{
 h1{
     color: rgb(220, 97, 146);;
     background-color: rgb(134, 202, 134);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h2{
     color: rgb(134, 202, 134);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .center{
     display: flex;
